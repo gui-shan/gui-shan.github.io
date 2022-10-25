@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+<title>Hodgepodge of Nepenthe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* Div indent */
+div.ind {
+  text-indent: 2em;
+}
+
+/* font face */
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", LiSu, Serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#Read {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#Read {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Pictures/Kant.jpg" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="index.html#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="reading.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>Reading</p>
+  </a>
+  <a href="fun.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-music w3-xxlarge"></i>
+    <p>Fun</p>
+  </a>
+  <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="index.html#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="reading.html" class="w3-bar-item w3-button" style="width:25% !important">Reading</a>
+    <a href="fun.html" class="w3-bar-item w3-button" style="width:25% !important">Fun</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="w3-padding-large" id="Read">
+  <!-- Reading Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="reading">
+    <h2 class="w3-text-light-grey">Reading and Writing</h2>
+    <hr style="width:320px" class="w3-opacity">
+    <p> “知止而后又定，定而后能静，静而后能安，安而后能虑，虑而后有得。物又本末，事有终始，知所先后，则近道矣。”<br>
+    ——《大学》
+    </p>
+    <p>（不会说话之前就先摘录吧。）<P>
+
+ <!-- Content -->
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+            <h5 style="text-align:center;"> Contents</h5>
+
+            <ul>
+              <li> <a href="reading.html#Metaphysica" style="text-decoration:none"> Metaphysica, Aristotle</a> </li>
+              <li> <a href="reading.html#ZN-Arendt" style="text-decoration:none">阿伦特——政治的本原 (张念）</a></li>
+              <li> <a href="reading.html#Utilitarianism" style="text-decoration:none">Utilitarianism, John Stuart Mill</a></li>
+                <li> <a href="reading.html#DXM-Hegal" style="text-decoration:none">邓晓芒，黑格尔哲学演讲录 </a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+    <!-- Start Metaphysica -->
+    <div id="Metaphysica">
+    <h3 class="w3-padding-16 w3-text-light-grey">Metaphysica</h3>
+    <!-- font family-->
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey" style="font-family: LiSu, Garamond, Serif">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+            <p>Reference</p>
+            <ul>
+                <li>《形而上学》，无寿彭（译），商务印书馆，1981</li>
+                <li><a href=" https://www.jstor.org/stable/j.ctt6wq12z.12" style="text-decoration: none">
+            Metaphysics, W.D.Ross (tr.), Princeton University Press, 1928 </a> </li>
+                </ul>
+        </div>
+
+      <h5 style="text-align:center;">卷一</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+        <p> 求知是人类的本性。动物可感知现象并产生记忆，少有经验；而人能从经验产生技术。
+           知识属于技术, 智慧则是有关原理和原因的知识。
+           如数学始于埃及僧侣阶级的特许闲暇, 那些不为生活所需，不以快乐为目的知识兴起于有闲暇的地方。
+          人人易得的感觉不算智慧；最普遍的也是最难知的，它们离感觉越远。西蒙尼德(Simonides)：人类的本性实在缧绁(bondage)之中。</p>
+
+        <p>说明事物的基本原因才算知道这事物。
+          原因(causes)有四：形式因(formula)——本体(substance)即怎是(essence),最终的为什么；物质因(matter)——底层(substratum);
+          变化因(source of change);目的因(sake of which)——本善(good)，与动变相对。</p>
+
+        <p>先贤多探求物因，部分探求动因：<br>
+        <table>
+        <tr>
+    <td>Philosopher</td>
+    <td>Matter</td>
+    <td>Change</td>
+    <td>One</td>
+
+  </tr>
+
+  <tr>
+    <td>泰勒斯(Thales)</td>
+    <td>水</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>阿纳克西米尼(Anaximenes)</td>
+    <td>气(air)</td>
+    <td></td>
+    <td></td>
+  </tr>
+                <tr>
+    <td>赫拉克利特(Heraclitus)</td>
+    <td>火</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>第欧根尼(Diogenes)</td>
+    <td>气(air)</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>阿纳克萨哥拉(Anaxagoras)</td>
+    <td>无穷数(infinite in number)</td>
+    <td>理性(reason)</td>
+    <td></td>
+  </tr>
+
+
+        <tr>
+    <td>巴门尼德(Parmenides)</td>
+    <td>物不止一</td>
+    <td></td>
+    <td>是(Being)</td>
+  </tr>
+
+        <tr>
+    <td>希萧特(Hesiod)</td>
+    <td></td>
+    <td>爱欲(love or desire)</td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>恩培多克勒(Empedocles)</td>
+    <td>四：土气水火</td>
+    <td>友与斗(friendship and strife)</td>
+    <td></td>
+  </tr>
+        <tr>
+    <td>留基伯(Leucippus)</td>
+    <td>空与实(full and empty)</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>德谟克里特(Democritus)</td>
+    <td>空与实(full and empty)</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+        <tr>
+    <td>毕达哥拉斯(Pythagoreans)</td>
+    <td>数(numbers)</td>
+    <td></td>
+    <td>数(Mathematics)</td>
+  </tr>
+
+        <tr>
+    <td>柏拉图(Plato)</td>
+    <td></td>
+    <td></td>
+    <td>意式(Ideas)</td>
+  </tr>
+
+</table>
+        </p>
+
+        <p></p>
+
+      </div>
+
+      <h5 style="text-align:center;">卷二</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 有理性的人总是符合于一个目的而后有所作为，此为定限(limit)或终极(end)。</p>
+      </div>
+
+
+
+      <h5 style="text-align:center;">卷三</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+        <p>综合实体(Thing):物质连同其指谓(predicated)；</p>
+
+        <p>房屋的四因：动因为建筑师或建筑术；极因为其作用；物因为土石；形式因为房屋的定义。最高的因是基因，万物归于终极复于本善。万物不能无中生有，凡动变必有目的。</p>
+
+      </div>
+
+
+
+      <h5 style="text-align:center;">卷四</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+        <p>形而上学研究实是(being)之所以为实是以及其由于本性(nature)而应有的属性(attributes)。是(be)有多种含义：是本体；是本体的演变；是完成本体的过程；是本体的缺失；是本体相关的事物等。哲学是本体之学。</p>
+
+        <p>每门学术研究事物的某一级或某一类感觉(perception)，研究任务是对反(opposite)。众多(plurality)对于元一(unity)。形而上学研究元一的否定(negation)与阙失(privation)。</p>
+
+        <p>对一切事物予以证明是不可能的，因无尽追溯必有残余。矛盾律是最不证自明的。</p>
+
+        <p>属性皆偶然，属性无限种，本体是唯一最主要的属性。</p>
+
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷五</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+        <p>被称为本体的事物不为别的主题(subject)为云谓(predicated)，而有别的事物作其云谓。本体是最底层，是这个(this)。</p>
+
+        <p>本体为一即相同(same)；质量(quality)为一即相似(like);数量(quantity)为一即相等(equal)。</p>
+
+
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷六</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p> 如谓一切思想必为实用、制造与理论三者之一，则物理学、数学、哲学为理论学术：
+           物理学理论的是动变的事物；
+         数学的研究对象是否不变动而脱离物质还不得而知，但有些定理是先假定数理对象不变动而脱离事物，某些部门研究不动变但不能脱离物质之物；
+         第一哲学研究世间如若存在的不动变本体，其赋予一切原因以永恒性，似“神”的作用。</p>
+        <p>实是(being)之偶然：偶然是诡辩派的论题，不能成为科学研究。偶然事物的生灭不似现存事物有过程，其原因是出乎常然的。
+          偶然是必定存在的，因为世间大部分事物只是大多数如此而已。
+        </p>
+        <p>
+          没有生灭过程而生灭的原理与原因是有的，否则万物尽成必然，现在由过去决定且可决定未来，这与每一时刻存在的偶然和不确定性矛盾。
+        </p>
+        <p>
+          实是(being)之真假：真假是逻辑关于组合的析离判断：肯定主题和云谓相合、否定两者相离为真；反之为假。
+        </p>
+      </div>
+
+
+            <h5 style="text-align:center;">卷七</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p> 本体 (substance) 较之范畴先于时间，先于定义，并为事物认识次序之始。
+           米利都和埃利亚学派认为实体只一；毕达哥拉斯学派和恩培多克勒认为数有定限。</p>
+        <p>  一般人认为实物是本体；毕达哥拉斯学派认为实物之外限（面、线、点、单位）相较实物应更为本体。
+          柏拉图、斯泮雪浦、奇诺克拉底重超物质本体。
+          希波、伊比鸠鲁重可感觉本体。
+        </p>
+        <p>
+          除常见的怎是、普遍、科属，底层也是本体。底层以一切事物做云谓/范畴，却不为其它事物的云谓，是最真切的本体。
+          物质不是本体，因本体需要独立性和个别性；物质和通式的组合不是本体，因组合后于通式而本体要求先于时间；
+        </p>
+        <p>
+          修学的程序是经由个别感觉经验所易识的小节，试求宇宙不易的大义。
+          “是”的初级原义属于本体，其次命意属于其他范畴，诡辩利用“是”的双关，如“凡所不知也是知”。
+        </p>
+        <p>
+          只有本体可作定义。定义是怎是的公式，而怎是唯一地、主要地、基本地属于本本体。
+        </p>
+        <p>
+          由己事物(Self-subsistent thing) 如善、美，自足于己，不依赖于其它事物，没有其它本体或实是先于它。
+          若意式(Ideas)先于本体,则意式无从认识，而本体没有实是。
+          事物自身与其本体实际和一。
+        </p>
+
+        <p>
+          事物(thing)由自然、技术或者自发所成，有其所由来、创造者，和所成就。
+          自然事物（如人草木）由自然创造，从物质来，成就为自然万物，自然万物具有自然本性，虽物质不同，但通式相同（人既而为人）。
+        </p>
+
+        <p>每一制品均将成为可区分的两部分，物质和通式。通式不需成为自存本体。通式不需成为典型（柏拉图的意式）。
+          人与人因物质不同而各自成为“这个”(this)，但他们的形式是不可区分的。</p>
+
+         <p>在综合论法(deduction)中，怎是为一切事物的七点。在本体上，形式不产生形式。铜在为成为铜球之前也是一综合实体。
+         本体之特性在于必须先有一已经完全实现的另一个本体为之父母，如人；而质量则不需要另一质量，只要先有所潜在即可。</p>
+
+        <p>综合实体(thing)，如“这个圆”，没有定义，只能凭思想或感觉来认识；当它们从完全的现实消失后就不知其或存或亡。
+        </p>
+
+        <p>灵魂是原始本体，身躯是物质，人与动物是两者的结合。
+        </p>
+
+        <p>定义是包含诸差异的公式，或者按照真确的分类方法，即是最末一差异。
+        </p>
+
+        <p>本体不作一个主题的云谓(predication)，而普遍性则常作为某些主题的云谓。普遍性不是下一级事物的本体（人和马），却是自己的本体（动物）。
+          本体不能由若干个完全实现的本体来组合。假若本体为一，这不能是若干本体所组成。德谟克里特：一物不能由两物制出来。
+        </p>
+
+        <p>
+          本体有综合实体与公式两类。作为综合实体的本体可以灭坏与生成，而公式无生灭。可感觉的个体本体不可能有定义也不会有证明。
+          意式（Idea)按照意式论者为可以独立自存的个体，则这是无法定义的；若又可以参与很多事物（以一统多），则这需要诸意式的组合，那么每个意式就只能代表一种事物。
+        </p>
+
+        <p>
+          实是(being)与元一(unity)较之于原理、要素或原因为切于本体，但仍旧不是本体，因为本体只属于自己，凡共通性均不是本体。
+          普遍性显然不能离开个体自存。</p>
+
+        <p>
+          问一事物何以谓之自身，是无意义的问题，因为提出一个怎么，事物的存在与其真相就已经明显暴露了：肯定事物存在才提出这个问题。
+          事物不能从自身分离，它之所以成为一个这个(this)因为他就是这个(this)。
+          在成灭事物上，，所求当为动因，而与事物存在的问题上，则应求其极因。
+        </p>
+
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷八</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>可感觉的本体均有物质。</p>
+
+        <p>可感觉本体怎样存在——为物质，为形式或实现(actuality),为两者结合。</p>
+
+        <p>灵魂与成为灵魂相同，而人和成为人不同（人是可感觉本体）。</p>
+
+        <p>人的四因——material cause:menstrual fluid; moving cause: semen; formal cause: his essence; final cause: the end.</p>
+
+        <p>只有可生灭的事物具有物质。
+          至于一切非物质事物原都是全称元一(All things which have no matter are without qualification essentially unities)。</p>
+
+
+      </div>
+
+
+
+
+      <h5 style="text-align:center;">卷九</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>事物之能指自己能被作用或作用于它事物。</p>
+
+        <p>具有理知(reason)的能力可起对反作用(effect)，无理知只能有一种作用。如医疗可以使人健康或疾病，而热之作用于热。</p>
+
+        <p>麦加拉学派(Megaric school, 苏格拉底支派),错误的认为事物之能只在作用的时候，忽略了潜在。
+          实现(Actuality)严格解释限于动作，而完全实现(Fulfillment)指的是实际存在。</p>
+
+        <p>无限(Infinity)虽在潜能上有存在，但并不以实现为依托。
+          有限的动作(action)可以分为时刻进行没有抵达的运动(movement)如学习、建筑，以及过程和结果同一的实现(actuality)如看（看见），想（想到）。</p>
+
+        <p>实现(Actuality)先于潜能（potentiality)：实现先于公式——认识潜能之前必先认识实现的公式；
+          实现在时间上为先——总有一原动者(first mover)，原先已实现得存在(exists actually)；
+          实现在本体上为先——事物得目的是其成为原理得原因，且创造以终极为目的，而实现为其终极。
+          有产品的动作，其实现归于产品，如建筑工作的实现归建筑物；无产品的动作，实现归于主动者，如幸福生活的实现归于灵魂，因为幸福也是某一类生活。
+          本体(substance)或形式(form)为实现。按照时间追溯，有一个永在原动者之实现(actuality of eternal prime mover)。
+          永在事物(eternal things)的存在均为实现存在，必然性(necessity)的事物是基本事物(primary things)，没有这些一切将不会存在，而必然事物的存在没有偶然性。
+          可生灭事物（perishable things)活动伴随的物质和潜能都有相对的因素，因此是费力的(laborious)，而永在事物的运动出于实现，不费力。
+          地球与或效仿者不灭坏事物永恒活动。实现先于潜能和一切动变原理。</p>
+
+        <p>潜能同时有对反，但相反亮相不能同时存在。潜能无所偏于两者时，善只是其中一端，因此实现善端教善为更善，恶亦然。恶离不开恶的事物。
+          原始永在事物没有恶(bad)，没有缺点(defective)，没有偏斜(perversion)。</p>
+
+        <p>真实(Truth)是接触(contact)和证实(assertion)（与肯定(affirmation)不同)。不接触就是不认识。
+          怎是(essence)与实现(actuality)没有假，问题只在于可能不认识。判断(Judgement)可以为对或错，事实却是永恒的。</p>
+
+
+      </div>
+
+
+
+      <h5 style="text-align:center;">卷十</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>成为一(One)就是成为不可区分。一是事物的尺度(measure)。普罗塔格拉(Protagoras)“人是万物的尺度”的意思是人凭理知和感觉计量事物。</p>
+
+        <p>毕达哥拉斯学派(Pythagoreans)认为一是本体但普遍性均不能成为本体；
+          从物的层面看，自然哲学家如恩培多克勒以一为友、爱，阿纳克西米尼以一为气，阿纳克萨哥拉以一为未定，但这些不同的本体无需合并为普遍。
+          确定为一的事物在本性上不是元一(unity)，元一与实是同。</p>
+
+        <p>一与多为对反(opposite):一不可能区分而多可区分；由于多的可以区分而更易认识，多在定义上先于一；一作为单位，而多为可计量的事物。
+          这一对反不因矛盾(contrary)，而由于相关(relative)。知识以可知事物为单位。</p>
+
+        <p>相异者必须在公认的相同方面求其异。最大的差异为相对(contrary,或矛盾)。异于科属因距离太远而无法比拟；差异只在科属内。</p>
+
+        <p>“等”非大非小，为一间体(intermediate)。间体与其所由是事物属同一科属、在组成之间、并由组成复合而来。</p>
+
+        <p>对反(contrary)别于形式，可灭坏事物和不可灭坏事物是对反，故不同种(different in kind)。所以通式(Form)不能有。</p>
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷十一</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>智慧是第一原理的学术。第一原理并不对反。不灭坏的本体或特殊原理是大部分有造诣的思想家当作实是(being)而一致追索的。
+          哲学家专注于一般实是，重视通则。</p>
+
+        <p>同一事物不能既是又不是，虽然没有完全的普遍实证（完全实证必须找到更确切的包含它的真理），但找不出更确实的真理。
+          凡物必出于物为自然哲学家所公认。不同的意见或印象源于感觉，实际事物不变而人感觉到的千差万别（如甜苦，美丑，爱恶）。
+          物本身不变。探索真理须以不变的常态事物为始。怀疑一切的人破坏了所有理解，无法进行讨论。</p>
+
+        <p>独立存在而不变动的本体若存于世间，就该是神之所在而成为第一个最基本的原理。神学在研究对象上优于一切学术。</p>
+
+        <p>无限不是宇宙的主体：可感受的事物中没有无限，无限不能有众多（可数）组成，也不能是单体；元一亦不是。</p>
+
+
+      </div>
+
+
+
+
+      <h5 style="text-align:center;">卷十二*</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>倘若宇宙(universe)为一整体(whole),本体是其第一部分；倘宇宙是各部分的串联，则本体在次序上为第一，随后为质、量。
+          本体分可感觉本体（永恒；可灭坏）和不可感觉本体。可感觉本体是变化的，不可感觉本体不变动。本体也可分为物质本体，形式本体（自然本性），和综合实体。
+          变化分四类：本体生灭、量之增减、质的该换、位置运动。对于永恒事物，不生灭但若能运动，则必有物质。
+          原理有三：定义或通式；定义和通式的缺失；物质。物质和通式互不创生。</p>
+
+        <p>运动和时间都是延续的；时间或者就是运动，或是运动的属性。空间运动中只有圆的运动延续不息；空间运动外无延续不息的运动。</p>
+
+        <p>第一原理的要义即是实现，这是由于动的万物需要有制动而不被动的永恒事物。这本体无物质。
+          留基伯和柏拉图说宇宙常动却不说为何而动；希萧特以混动为宇宙之始，阿纳克萨哥拉的理性就是实现。
+          第一天(First heaven) 是永恒的。原动者的极因是善。</p>
+
+        <p>欲求所求为表面事物的虚善；理性所求为真实事物的真善。
+          人若无所思则与睡眠无异；人的思想活动不是至善。人的思想对象为他物，全善的神永远思想他自己。</p>
+
+        <p>秩序为善。自由人不做无目的的动作，相比牲畜的蠢蠢而动，有了更少的自由。
+          善政者不在多，一王而治(The rule of many is not good, let there be one ruler)。</p>
+
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷十三</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>数理对象(object of mathematics)作为实是只在定义为先，而不先于可感觉事物，也不能再任何处所独立存在，并非全称存在(do not exist without qualification)。</p>
+
+        <p>美与善不同：善以行为主，而美可见于不动的事物。美的主要形式：秩序(order), 匀称(symmetry)，明确(definiteness)。
+          赫拉克利特(Heraclitean)将可感觉事物描写为均在流变之中;德谟克里特(Democritus)触及物质；
+          苏格拉底(Socrates)竭诚于演绎(deduction)和辩证(dialect)，
+          归纳思辨(Induction argument)与普遍定义(universal definition)归功于苏格拉底,但普遍定义尚未成功。</p>
+
+
+      </div>
+
+
+      <h5 style="text-align:center;">卷十四</h5>
+      <div style="text-indent: 2em; margin: 25px 20px 25px 20px;" >
+        <p>本体无对反。可消失的非永恒。</p>
+
+      </div>
+
+
+
+
+
+      </div>
+    </div>
+    <!-- End Metaphysica -->
+
+
+
+
+
+
+
+
+<!--start 阿伦特——政治的本原---->
+    <div id="ZN-Arendt">
+    <h3 class="w3-padding-16 w3-text-light-grey">阿伦特——政治的本原 (张念）</h3>
+
+    <!--! font size--->
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey" style="font-family: LiSu, Garamond, Serif">
+
+
+      <h5 style="text-align:center;">第一章: 平庸之恶的难题</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 平庸之恶(The banality of evil)，最早出自《耶路撒冷的艾希曼——关于恶的平庸的报告》(1963，Hannah Arendt）</p>
+          <p>根据柏拉图，能够理解的一定能够被表征，那恶如何可思？康德：人性恶的起源来自宗教层面，人性的脆弱和不纯粹让人趋于恶；
+              阿伦特：缺乏思考能力就是平庸的，平庸性即恶。</p>
+          <p>在存在主义者看来，审慎品质也不是功利主义的理性计算，而是源自怀疑。
+              怀疑实在孤独无依的状况下产生的，越是无所依傍，对那个甩不掉的自我就越是慎重，越是珍惜。
+          本雅明：“人群之中的闲逛者，在巨大的噪音之中聆听自己的心跳。”</p>
+          <p>康德的实践理性重，最为绝对的道德命令是人不能撒谎。阿伦特将这条命令还原成思考行为，在自我质询的过程重，进行思考的人不能自相矛盾。
+          如果你发现自己“应该”但“不能”，这就是你对自己在撒谎。
+          更多时候，人处在萨特所说的自欺(bad faith)之中，因为生命的普遍处境往往正被“我应该”而“我不能”所围绕。</p>
+          <p>越多的知识意味着越少的思考能力。</p>
+          <p>判断着的快乐——如回想美餐，比享受美餐更令人愉悦；
+              嗅觉和味觉更私有化，更挑剔，更铭感，更不可交流，而品味天生含有更强的判断性（康德《判断力批判》）。
+              政治判断作为行为表现，可分为服从和抵抗，两者各有消极和积极之分。就政治而言没有中间地带来安放人性的脆弱，或者所谓的人性晦暗不明。
+              康德所说的品味判断是独自完成的，如阿伦特所说的孤寂之中的独自思考，借助想象力，不需要别人的参与，没有原理和概念。</p>
+      </div>
+
+        <h5 style="text-align:center;">第二章: 政治废墟上的考古学</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 德勒兹对艺术的定义：艺术负责感知，哲学负责设想，科学负责认知。</p>
+          <p>修伯里克利葬礼词： 我们爱好美丽的东西，但是没有因此而至于奢侈；我们爱好智慧，但没有因此而至于柔弱。
+              ...这是我们的特点，一个不关心政治的人，我们不说他是一个注意自己事物的人，而说他根本没有事物。
+          ...我们的城市是全希腊的学校...这就是这些人为它慷慨而战、慷慨而死的一个城邦，因为他们只要想到丧失了这个城邦，就不寒而栗。
+              （修昔底德《伯罗奔尼撒战争史》）</p>
+          <p>政体（制）的目标在于追求最大限度的善，也就是公正。</p>
+          <p>在亚里士多德那，奴隶也好，女人也好，因理性能力的匮缺（不完善），而被排除在政治活动之外？</p>
+          <p>梅洛·庞蒂：我们出生自一个世界并出生于一个世界中。</p>
+      </div>
+
+
+        <h5 style="text-align:center;">第三章: 公共领域的私人面具</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 亚里士多德的最高的善——不是逃避现实，而是联合起来创造另一种替代性的现实。这就是革命宣称“为了众人的福祉”的最古老的心理依据。</p>
+          <p>亚里士多德：快乐来源于偏差——这恰恰是一种活的感觉，否则人就成了心如死灰的活死人。人们受到幸福的幻觉，才能获得共同行动的力量。</p>
+          <p>普罗列塔利亚 (proletarius),无产阶级 (proletarian)，愿意是只会咩咩叫而不会言说的人。</p>
+          <p>专注于任何物的关系，使得人们丧失了人与人之间的联系。</p>
+          <p>“我们为某种行为方式而活，而不是为某种品质而活。”（亚里士多德《诗艺》）</p>
+      </div>
+
+        <h5 style="text-align:center;">第四章: 感性判断的政治赋形</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p>理论 (theory) 的希腊词根 theo --> theorein 有观看的意思，和演出 (theatron) 同名异形。在古希腊人哪里真就是善、美，
+             因此旁观不是“客观立场”二十大大共情、宣泄和彻底理解并予以裁断的“剧场效应”。</p>
+          <p>黑格尔：没有偏执就没有行动。</p>
+      </div>
+
+
+
+      </div>
+        <!--!-- End 阿伦特——政治的本原 -->
+    </div>
+
+
+
+ <!-- Utilitarianism-->
+    <div id="Utilitarianism">
+    <h3 class="w3-padding-16 w3-text-light-grey">Utilitarianism, John Stuart Mill</h3>
+
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey" style="font-family: LiSu, Garamond, Serif">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+            <p>Reference</p>
+            <ul>
+                <li>《功利主义》，徐大建（译），商务印书馆，2016</li>
+                <li><a href=" https://www.utilitarianism.com/mill1.htm" style="text-decoration: none">
+            UILITARIANISM, by John Stuart Mill (1863) </a> </li>
+                </ul>
+        </div>
+
+        <h5 style="text-align:center;">Questions while reading</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+          <ul>
+              <li>道德的第一原理？从先验来还是从归纳来？</li>
+              <li>主要原则和次要原则 </li>
+              <li>应该和实际的差异</li>
+          </ul>
+      </div>
+
+      <h5 style="text-align:center;">Chapter I General Remarks</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 由于不存在一条公认的伦理学第一原理，自哲学诞生以来，“至善” (summum bonum) 的问题或者说是道德基础的问题，至今没有取得一致意见:
+             青年苏格拉底主张功利主义而反对普罗塔格拉当时所谓智者的理性道德。
+             终极目的的问题是无法直接证明的。任何事物凡能别证明是善 (good) 的，必定是因为我们能够说明，它可以作为一种手段，使人获得无需证明就被认可为善的事情。
+             音乐能证明好，因为能给人带来快乐；但无法证明快乐是好的。</p>
+      </div>
+
+
+        <h5 style="text-align:center;">Chapter II What Utilitarianism is</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 1. 功利主义：把“最大幸福原理”当作道德基础的信条主张，作为判断行为对错的准测。</p>
+          <p>回应伊比鸠鲁学派被轻蔑的比作猪(swine)：人能享受比猪更多的快乐 (happiness), 但比猪更不满足 (content, satisfied)。
+              所以当不快乐苏格拉底要比快乐的猪更好。
+              快乐有层次，只有都体验过高低层次的人才能切身判断那种快乐更好。由于骄傲 (pride) 和尊严 (dignity), 体会过人的都会认为高层次的快乐更值得欲求。</p>
+          <address>
+              享受高尚感情的能力，在大多数人的天性中都是一颗非常柔弱的花草，不仅很容易被各种不良环境因素扼杀，而且只要缺乏营养，就很容易死亡...
+              人们丧失自己的高等追求就像丧失自己理智上的趣味一样，都是因为他们没有时间或机会来沉浸其中。</address>
+
+          <address>
+              令人满足的生活似乎有两个要素：宁静与兴奋...他们天然就是联盟，任何一者的延长都是对另一者的准备，都会激起对另一者的希望...
+              人之所以对生活感到不满，其主要原因除了自私之外，便是缺乏心灵的熏陶...
+              这世界上有那么多的东西可以让人充满兴趣、可以供人享受，还可以被人改正或改进，
+              在这样的世界中，每一个具备一定道德修养和智力水平的人，都能过上一种可称之为令人羡慕的生活。
+          </address>
+          <p>2. 功利主义的行为标准并不是行为者本人的最大幸福，而是全体相关人员的最大幸福：高尚的人必然会使得别人更加幸福，而整个世界也会因此而大大收益。</p>
+          <address>只有当世界的安排处于一种很不完善的状态时，绝对牺牲自己的幸福才会成为增进他人幸福的最好办法，
+              可是既然这世界是这样的不完善，所以我完全承认，准备作如此牺牲是在人身上所能见到的最高美德。</address>
+
+          <p>3. 伦理学标准只是检验行为的对错，它形成了义务感，但不要求行为只参照义务感这个动机。99%的行为都只需要考虑私人的功利。</p>
+          <address>伦理学的任务是要告诉我们，我们的义务是什么，检验它们的标准是什么；但没有一种伦理学体系要求我们，我们的全部行为都只有一个动机，即出于义务感；
+              相反，我们的行为99%都是处于其他动机，这些行为只要合乎行为规则，就无不当之处...功利主义者很清楚，美德之外还存在着其他各种值得欲求的财富和品质。</address>
+
+          <p>4. 功利主义原则可以用来权衡彼此冲突功利。对自己诚实是好的，因为言论的可行性是税福利的支柱；但例外情况下，说谎可以保护部分人。</p>
+          <p>回应行为之前的无时间计算：基督教指导人们行事时，人们并没有时间翻阅《旧约》或《新约》。</p>
+          <address>我们有充分的时间，那就是人类的全部历史；人类在自己的整个历史中，始终在借助经验了解各种行为的倾向。</address>
+
+          <p>5. 公认的伦理准则目前没有，但总是在不断改进。</p>
+          <address>公认的伦理准则并不是神圣不可侵犯的；关于各种行为会对社会公众幸福造成什么后果，人类还有很多东西需要了解。
+              根据功利原则得出各种推论，就像实践技能中的操作规范一样，允许无限地加以改进，而当人类心灵处于一种进步的状态时，这种改进是在不断进行着的...
+          虽然功利的比准也许很难运用，但总比没有标准要好...没有一种道德义务是不涉及某个次要原则的。</address>
+
+      </div>
+
+
+                <h5 style="text-align:center;">Chapter III On the Ultimate Sanction of the Principle of Utilitarianism</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p>功利原则的约束力，即人们遵守它的动机有外在的：遵循上帝的意志，希望自己和同胞得到恩宠；有内在的：内心的主观感情。</p>
+         <address>他仿佛是本能的意识到，自己是一个当然要关心别人的人。</address>
+
+
+      </div>
+
+
+        <h5 style="text-align:center;">Chapter IV Of What Sort of Proof the Principle of Utility is Susceptible</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p>功利主义学说主张：幸福 (happiness) 是唯一值得欲求的。功利主义认为美德 (virtue) 自身也值得欲求，但那是因为它是幸福的一部分。
+             道德意志需要与苦乐结合，作为习惯 (habit) 起作用。</p>
+         <address>
+             目的的问题，其实就是关于什么东西值得欲求的问题。</address>
+          <address>我们唯有将行善与快乐相连结，知名行善中自然旱藕的快乐以及作恶中自然含有的痛苦，
+             并把这一点灌输到这种人的经验中，使他彻底了解这一点,才能够使他的意志向善，而等到向善的意志根深蒂固之后，起作用时就根本不会想到什么快乐和痛苦。
+             意志是欲望的孩子，脱离了父母的管教州，只受习惯的管教。由习惯而生的东西，并不意味着其自身就是善的；...</address>
+
+      </div>
+
+
+
+        <h5 style="text-align:center;">Chapter V On the Connexion Between Justice and Utility</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p>功利主义学说主张：尽管人类情感上表明正义(justice)不属于利益(utility), 在观念上与利益对立，但长远来看却永远没有脱离最大幸福（最大利益）。</p>
+         <address>
+             大自然复于我们一种情感，并不意味着这种情感的要求一定都是合理的。正义的感情也许是一种特定的本能...
+             人们总是倾向于相信，任何主观的感情如果没有别的解释，那就是对某种客观实在的一种揭示...
+         人们一般都不会否认，正义要求做的事情，在客观上与“公众利益”的淋雨是部分重合的。</address>
+          <address>正义的词源学，拉丁文 justum （正义） 是jussum (命令要求的事) 的变形；希腊文直接来源于“法律诉讼”；
+              日耳曼语系中，right和righteous都来源于 Recht（德文，法律）。在基督教诞生之前的希伯来人哪里，所谓正义，无非就是遵从法律...
+              不过其他民族，尤其是古希腊人和罗马人，却知道自己的法律一开始就是人制定的，并且将继续被人制定出来，因此她们不怕承认，人也可能制定恶劣的法律。</address>
+            <address>正义的感情，就它的一种要素是惩罚的欲望而言，就是一种报复或者报仇的自然感情，这种自然感情由于智力和同情心的作用，可用于我们受到的一些伤害。</address>
+            <address>安全利益没有人能够缺少，是所有利益中最重要的。</address>
+
+
+      </div>
+
+
+      </div>
+    </div>
+
+
+      <!-- 黑格尔哲学演讲录 -->
+    <div id="DXM-Hegal">
+    <h3 class="w3-padding-16 w3-text-light-grey">邓晓芒，黑格尔哲学演讲录</h3>
+
+    <!-- font size-->
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey" style="font-family: LiSu, Garamond, Serif">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+            <p>Reference</p>
+            <ul>
+                <li>《黑格尔哲学演讲录》，邓晓芒，商务印书馆，2020</li>
+                </ul>
+            <p>Reading Time: July 2O22</p>
+        </div>
+
+      <h5 style="text-align:center;">导论 黑格尔哲学的特点</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 黑格尔把康德创立的德国古典唯心论哲学发展到了最高点，是德国古典哲学的集大成者，”古代世界的亚里士多德“。
+             而费尔巴哈标志着德国古典哲学的中介。</p>
+          <p>黑格尔哲学的第一个特点是能动的辩证法思想。能动->自由意志。而真正的自由是一种自我否定，不停在原地，不断改变自己。“火的哲学”。</p>
+         <address> 《精神现象学》：最重要的就是把实体理解为实体。</address>
+          <p>第二个特点是彻底的理性主义和逻辑主义。理性人人都有，不似灵感不似慧根。</p>
+          <p>第三个特点是逻辑、认识论和本体论的三统一。于是有历史主义的倾向。海德格尔重视历史但去掉了逻辑。
+              经过两千多年的发展，黑格尔认为自己的哲学就标志着绝对精神的结束。</p>
+      </div>
+
+      <h5 style="text-align:center;">第一/二讲 《逻辑学》 </h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 《逻辑学》分为三个主要部分：存在论、本质论和概念论。</p>
+          <p>1. 关于存在 （德语 sein, 英语 being) 的学说就是本体论(ontology), on 是希腊文的“存在”。
+              从亚里士多德的《形而上学》，实体（特别是个别实体）是“作为存在的存在”。</p>
+          <p>黑格尔认为逻辑学以“是”为开端。在康德那，“是”是一种联结活动，是自我意识的自发性带来的。而黑格尔将“是”彻底能动化。“存在”是一种决心。</p>
+          <p>当你决心去是的时候你还什么都不是。从“有”就过度到了“无”，无是有带出来的。而老庄哲学是从“无”开始的。古希腊哲学都是从“有”开始的。</p>
+
+          <p>2. 黑格尔讲本质(Wesen)是“过去了的存在“。自由意志不能问其根据，而在其他领域追问原因归结根据就是本质论。
+          本质论里，对立（外在事物的对立）统一最终是要引向矛盾（自己和自己的对立）。
+              自由就是要与自己不同，万物都会灭亡（向对立面转化，没有为什么），所以”幸福只有一瞬间“</p>
+          <p>3. 概念是本质的存在。上帝的自由意志的决心也能用经过全部逻辑学凝集起来的方法，创造出它的对象，这就是自然界。类似古代新柏拉图主义的"流溢说”。</p>
+          <address>席勒：在绝对精神的圣餐杯里面，绝对性翻涌出它的泡沫。</address>
+      </div>
+
+              <h5 style="text-align:center;">第四~六讲 《应用逻辑学》 </h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> 黑格尔的特殊观点：在自然界里是没有时间的，只有在人类历史里面才有了时间。在自然界就只有空间，五花八门的东西并存在哪里；
+             自然界通过人而达到了自身的自我意识，在人身上我们可以看出整个自然界的最深刻的本质。谢林把自然界称为“冥顽化的理智”。</p>
+          <p>否定之否定主要是人的原则，自我否定是人的原则，也就是自由的原则。两极性和对立统一还不是自由的原则，只不过是客观事物的原则。
+              要实现更多、更大的可能性，由此纪要否定自己，这就是自由。自然辩证法的实质是人学。</p>
+
+          <p>在康德哲学之后，人们都有一种批判的眼光，也就是i说要建立任何一个前提都必须要接受批判，要说明和证明这样做的理由。
+              《精神现象学》（1806）成书早于《哲学全书》，他只讨论精神的现象，而不涉及精神的本质和客观事实。
+              日常我们认为概念是抽象的，感性是具体的；黑格尔认为概念可以是具体的，而感性是抽象的。</p>
+          <p>对于名实关系（能所关系），中国人讲历来就是讲“名副其实”；黑格尔体现出西方的“倒名为实”，我们称之为唯心主义。
+              他们认为语词代表一种共相，共相的内容可以变化，可以消失，而只有这个语词是永恒的。</p>
+          <p>康德的不可知的物自体被黑格尔取消，被纳入到力与力的表现的河流之中。</p>
+          <p>自我意识的独立与依赖：<br>
+          1.自我意识的两面：自我的对象化与对象的人化； <br>
+          2.主奴关系的辩证法：互相承认的关系。主人虽然代表自我，其地位出自偶然。但主人最终是被动的，真正主动的是奴隶（在和自然界打交道的时候）。<br>
+          斯多葛学派：建立在理性主义之上，“带上枷锁，我还是自由人”。
+              哲人就是要达到”不动心“，排除感性的纠缠，遵从上帝的理性：”愿意的人被命运领着走，不愿意的人被命运拖着走。“<br>
+          伊比鸠鲁学派：强调感受和幸福，只有在个体幸福上才能感受到自由。后堕落成享乐主义；<br>
+          怀疑派：建立在把感性、理性都排除干净。</p>
+          <p>印象派等不表达任何深刻的东西，百年城光合影的游戏，在合格二看来就是艺术的衰落。</p>
+          <p>自然宗教：人和自然没有分开的宗教，犹太教，古希腊的宗教这样的”精神个体性的宗教“，儒教、佛教、埃及、波斯的宗教等，迷信巫术等。</p>
+          <p>犹太教有天人相分（耶和华完全是非自然的）；但只有基督教通过耶稣基督提供了一个阶梯和中介。</p>
+          <p>黑格尔：哲学就是哲学史。他的存在论就相当于把门你的，他的本质论就相当于柏拉图、亚里士多德和中世纪、他的概念论就相当于近现代哲学。</p>
+
+      </div>
+
+
+              <h5 style="text-align:center;">第七/八讲 《法哲学原理》 </h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+          <address>“凡是和合理性的都是现实的，而凡是现实的都是合乎理性的。”</address>
+         <p>这里的现实（wirklichkeit)是能动性的，发展的，需要争取的，而不是现存。恩格斯加上一句：“凡是现存的东西都是注定要灭亡的”。</p>
+          <p>康德的《法权论的形而上学原理》：自然法（只有一种，人天生自由）；其余都是人为法（如言论权、政治权、财产权...)。
+              黑格尔也这样认为。但他认为自由只有以意志作为主题，才是现实的。</p>
+          <p>自由的三个层次：<br>
+          1.抽象自由：不去做的可能性，“消极的自由”。如庄子的自由（需要策划的好死不如啥也不做的赖活）。<br>
+          2.任性或任意：选择的时候是自由的，但选择完就成了束缚。如财产、事业、爱人。<br>
+          3.具体的自由：选择的对象不构成束缚，而是互相成就。在他（她）身上实现了自我，才是真正的爱情（友情）。</p>
+          <p>黑格尔认为人性本恶的观点比人性本善的观点高明的多，因为她说从内容出发的。人自由的形式是善的，但在内容上是恶的，它倾向于犯罪，
+              但正是因为这种走向犯罪的自由倾向，才表明人有了一种靠自己来改善自己的可能性，而不再单凭上帝的创造。人性本善就不需要自由意志了。
+          法处理的是第二种自由（任意或者任性）。但它本身已经达到了第三种自由，是具体自由的体现。</p>
+          <p>所有权本质上是人与人的关系，是一种承认。不过是具体体现在人与物的关系上。
+              恩格斯《家庭、私有制和国家的起源》做了更为深刻的分析，黑格尔主要强调人与物。</p>
+          <p>康德对自由意志的定义：“自行开始一个因果序列的原因性”。自我必须是最先的。</p>
+          <p>道德的三个层次：<br>
+              故意：责任；<br>
+              意图: 康德“至善是最终目的，但我们永远达不到”。<br>
+              良心：黑格尔“自己和自己相处的一种孤独”。</p>
+          <p>伦理：：<br>
+          黑格尔定义爱：在他身上看到自己，或者看到了自己的理想，你渴望和他成为一个人，但事实上你不能与人成为一体，所以爱种包含着一种“最不可思议的矛盾”。
+          因为人格具有排他性，你把对方当当作自己，在对方身上看到自己，你只能是在一个人身上，而不能同时在好几个人身上看到自己。</p>
+          <p>三权分立：<br>
+          卢梭反对：立法表明人民精神方面的追求，相当于人的灵魂，行政和司法相当于这个灵魂的肉体，肉体只能是灵魂的工具，你怎么能把灵魂和肉体对立起来，相互制约？
+          卢梭认为只有立法权是至高无上的。<br>
+          黑格尔继承卢梭，他的国家法三权种排除司法， 提出立法、行政和王权是个有机体。他推崇英式君主立宪制。要求言论自由。<br>
+          马克思《黑格尔法哲学批判》：逐条批判黑格尔的不彻底性，要建立资产阶级国家又担心人民群众的自由民主，反对社会契约，认为国王神圣不可侵犯封建传统很深。</p>
+
+
+      </div>
+
+
+      </div>
+    </div>
+  !-- End On Liberty ---->
+
+<!--
+Reading Template
+  !-- start On liberty --
+    <div id="Onliberty">
+    <h3 class="w3-padding-16 w3-text-light-grey">On Liberty</h3>
+
+    !-- font size--
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey" style="font-family: LiSu, Garamond, Serif">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+            <p>Reference</p>
+            <ul>
+                <li>《形而上学》，无寿彭（译），商务印书馆，1981</li>
+                <li><a href=" https://www.jstor.org/stable/j.ctt6wq12z.12" style="text-decoration: none">
+            Metaphysics, W.D.Ross (tr.), Princeton University Press, 1928 </a> </li>
+                </ul>
+            <p> <li> Reading Time: July 2O22 </p>
+
+        </div>
+
+      <h5 style="text-align:center;">Chapter II</h5>
+      <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+         <p> Of the Liberty of Thoughts and Discussion.</p>
+         <address> <q> Quotation. </q> </address>
+      </div>
+
+
+      </div>
+    </div>
+  !-- End On Liberty --
+-->
+
+
+
+
+
+    </div>
+  <!-- End Reading Section -->
+
+
+
+
+
+
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!--  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+  <!-- End footer -->
+  </footer>
+
+
+</div>
+
+</body>
+</html>
