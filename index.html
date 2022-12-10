@@ -13,7 +13,7 @@ div.ind {
 }
 
 /* font face */
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", LiSu, sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: EB Garamond, LiSu, serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
@@ -27,36 +27,33 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", LiSu, sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="Pictures/Kant.jpg" style="width:100%">
+  <img src="Pictures/sunset1-s.jpg" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
+    <font size="-1" style="font-family:EB Garamond"> <p>HOME</p></font>
   </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="reading.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#research" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-book w3-xxlarge"></i>
-    <p>Reading</p>
+    <font size="-1" style="font-family:EB Garamond"> <p>Research</p></font>
   </a>
-  <a href="fun.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#teaching" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-graduation-cap w3-xxlarge"></i>
+    <font size="-1" style="font-family:EB Garamond"> <p>Teaching</p></font>
+  </a>
+  <a href="blog.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-music w3-xxlarge"></i>
-    <p>Fun</p>
+    <font size="-1" style="font-family:EB Garamond"> <p>Blogs</p></font>
   </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
+
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="reading.html" class="w3-bar-item w3-button" style="width:25% !important">Reading</a>
-    <a href="fun.html" class="w3-bar-item w3-button" style="width:25% !important">Fun</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important;font-family:EB Garamond">HOME</a>
+    <a href="#research" class="w3-bar-item w3-button" style="width:25% !important;font-family:EB Garamond">Research</a>
+    <a href="#teaching" class="w3-bar-item w3-button" style="width:25% !important;font-family:EB Garamond">Teaching/a>
+    <a href="blog.html" class="w3-bar-item w3-button" style="width:25% !important;font-family:EB Garamond">Blogs</a>
   </div>
 </div>
 
@@ -82,179 +79,140 @@ div.hidden {
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h3 class="w3-jumbo"><span class="w3-hide-small"> Hodgepodge of </span> Nepenthe </h3>
-    <p>All men by nature desire to know.</p>
-    <p> - Aristotle, Metaphisica </p>
-    <br>
-    <br>
-    <img src="Pictures/La_scuola_di_Atene.jpg" alt="boy" class="w3-image" width="992" height="1108">
+<br>
+<br>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px" id="sunsets">
+      <div class="w3-half">
+    <div style="text-align: center; ">
+      <img src="Pictures/profile-s.jpg" alt="boy" class="w3-image" width="300" style="border-radius: 50%" >
+      </div>
+      </div>
+
+    <div style="text-align: left; ">
+      <br>
+      <font size="+4" style="text-align:left;font-family:EB Garamond">Shan Gui</font>
+      <font size="+1" style="text-align:left;font-family:EB Garamond">
+        <p>Ph.D. Candidate in Economics at George Mason University </p>
+
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-large w3-margin-right"></i> Arlington, VA, US</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-large w3-margin-right"> </i> sgui@gmu.edu</p>
+        <p><i class="fa fa-id-card-o fa-fw w3-text-white w3-large w3-margin-right"></i>
+          <a href="Files/Shan_Gui_CV.pdf" download> CV </a></p>
+      </font>
+    </div>
+    <!-- End grid -->
+    </div>
+
+
   </header>
 
 
-
-
-
-
-
-
-
-
-
-
-  <!-- About Section -->
-
-
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Introduction</h2>
+  <!-- About me -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="interest">
+    <h2 class="w3-text-light-grey" style="font-family: EB Garamond">Research Interest</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p> I feel more confortable to build on something rather than create from blank.
-      Maybe it means I by nature am not much creative.
-      Lack of descipline might also be my essence. This directly results in my dreadful memory and distressing concentration.
-      Creating this page is an attempt to save the worse condition.
-      Building on the open source template, I can also learn more on css, jave script, and html at the same time.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">Substance</h3>
-    <p class="w3-wide">Idealism</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-    <p class="w3-wide">Agnosticism </p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <p class="w3-wide">Lazism</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
-    </div><br>
-    
 
-
-
-
-    <h3 class="w3-padding-16 w3-text-light-grey">Substratum</h3>
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Migraine</span><br>
-        Moderate
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Scolioisis</span><br>
-        Minor 
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Delusion</span><br>
-        Severe
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Amnesia</span><br>
-        Potential
-      </div>
-    </div>
-
-
-
-    <h3 class="w3-padding-16 w3-text-light-grey">Source of Change</h3>
-    <p class="w3-wide">Time</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:25%"></div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  <!-- Reading Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="reading">
-    <h2 class="w3-text-light-grey">
-      <a href="reading.html" style="text-decoration: none">Reading and Writing </a></h2>
-    <hr style="width:320px" class="w3-opacity">
-    <p> “知止而后又定，定而后能静，静而后能安，安而后能虑，虑而后有得。物又本末，事有终始，知所先后，则近道矣。”<br>
-    ——《大学》
-    </p>
-    <p>（不会说话之前就先摘录吧。）<P>
-
-    <!-- reading table of content --->
-  
-    <h3 class="w3-padding-16 w3-text-light-grey">
-    <a href="reading.html" style="text-decoration:none">Reading Notes</a>
-    </h3>
     <div class="a w3-row w3-padding-16 w3-section w3-light-grey">
 
         <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
-            <h5 style="text-align:center;"> Contents</h5>
-
-            <ul>
-              <li> <a href="reading.html#Metaphysica" style="text-decoration:none"> Metaphysica, Aristotle</a> </li>
-              <li> <a href="reading.html#ZN-Arendt" style="text-decoration:none">阿伦特——政治的本原 (张念）</a></li>
-              <li> <a href="reading.html#Utilitarianism" style="text-decoration:none">Utilitarianism, John Stuart Mill</a></li>
-              <li> <a href="reading.html#DXM-Hegal" style="text-decoration:none">邓晓芒，黑格尔哲学演讲录 </a></li>
-
-
-            </ul>
+          <font size="+1" style="text-align:left;font-family:EB Garamond">
+        <p> A fourth-year Ph.D. student at the Interdisciplinary Center for Economic Science (ICES), GMU.
+          My current work is in theories and experiments in dynamic mechanism design, and behavioral game theory. </p>
+          </font>
 
 
         </div>
 
     </div>
+  </div>
 
 
+  <!-- research -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="research">
+    <h2 class="w3-text-light-grey" style="font-family: EB Garamond">Research</h2>
+    <hr style="width:120px" class="w3-opacity">
+
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+          <font size="+1" style="text-align:left;font-family:EB Garamond">
+
+            <h3 style="font-family: EB Garamond">Working Papers</h3>
+
+              <p>1. Non-Clairvoyant DynamicMechanism Design: Experimental Evidence (with Daniel Houser) </p>
+              <p>2. How de Sellers Choose Mechanism: Information Matters (with Daniel Houser) </p>
+              <p>3. Using (merit-based) default to reduce gender gaps in contribution of ideas:
+                Evidence from an online experiment (with Jingnan Chen, Daniel Houser and Erte Xiao)</p>
+
+<br>
+            <h3 style="font-family: EB Garamond">Working in Progress</h3>
+
+              <p>1. Mechanisms comparison under non-clairvoyant environment (with Daniel Houser) </p>
+              <p>2. Incompetence Trap (with Cesar Martinelli)</p>
 
 
+<br>
+            <h3 style="font-family: EB Garamond">Publications</h3>
+
+              <p>1. Hui Xu, Jie Liang, Shan Gui. The Impacts of the Origins of Social Status on Deception: Evidence from a Lab Experiment,
+South China Journal of Economics, 2019, 28(2):86-107</p>
 
 
+          </font>
+        </div>
 
-
-
-  <!-- Photo Section -->
-  <div class="w3-padding-64 w3-content" id="fun">
-    <h2 class="w3-text-light-grey">
-       <a href="fun.html" style="text-decoration: none">On the road </a></h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <h3 class="w3-padding-16 w3-text-light-grey">
-      <a href="fun.html#sunsets" style="text-decoration: none">Sunsets</a></h3>
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="Pictures/Silhouettes.jpg" style="width:100%">
-
-      </div>
-
-      <div class="w3-half">
-        <img src="Pictures/sunset1.jpg" style="width:100%">
-  
-      </div>
-    <!-- End photo grid -->
     </div>
-  <!-- End Portfolio Section -->
+  </div>
+
+
+    <!-- teaching -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="teaching">
+    <h2 class="w3-text-light-grey" style="font-family: EB Garamond">Teaching</h2>
+    <hr style="width:120px" class="w3-opacity">
+
+    <div class="a w3-row w3-padding-16 w3-section w3-light-grey">
+
+        <div style="text-indent: 2em; margin: 25px 30px 25px 30px;" >
+          <font size="+1" style="text-align:left;font-family:EB Garamond">
+            <h3 style="font-family: EB Garamond">Instructor</h3>
+            <p>Econ 103: Microeconomics Principles (evaluation: 4.85/5) GMU, Summer 2022 </p>
+            <p><a href="Files/eval_103.pdf" download>Evaluation</a></p>
+
+            <br>
+            <h3 style="font-family: EB Garamond">Co-instructor</h3>
+            <p>Econ 838: Econometrics II (with Daniel Houser) GMU, Fall 2021, 2022</p>
+            <p>Econ 445: Design and Analysis of Experiment (with Daniel Houser) GMU, Fall 2021, 2022</p>
+
+            <br>
+            <h3 style="font-family: EB Garamond">Teaching Assistant</h3>
+            <p>Econ 612: Microeconomics II GMU, Spring 2021, Summer 2021</p>
+            <p>Econ 611: Microeconomics GMU, Fall 2021</p>
+            <p>Stochastic Calculus for Finance Fudan University, Fall 2018</p>
+            <p>Game Theory Fudan University, Fall 2017</p>
+
+
+
+
+          </font>
+
+
+        </div>
+
+    </div>
   </div>
 
 
 
- 
 
 
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Fairfax, VA, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 681602</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: soleilfirmament@mail.com</p>
-    </div><br>
-  <!-- End Contact Section -->
-  </div>
+
+
+
+
+
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
