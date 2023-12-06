@@ -1,9 +1,20 @@
-https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment1
-https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment2
-https://gsexp-6d10f42dcec4.herokuapp.com/
+<html>
+  <head>
+    <title>Good Luck</title>
+  </head>
+  <body>
+https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment1 <br>
+
+https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment2 <br>
+
+https://gsexp-6d10f42dcec4.herokuapp.com/ <br>
 
 <a href="https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment1"> Room1 </a> <br>
 
 <a href="https://gsexp-6d10f42dcec4.herokuapp.com/room/experiment2"> Room2 </a> <br>
 
 <a href="https://gsexp-6d10f42dcec4.herokuapp.com/"> Login </a> <br>
+  </body>
+</html>
+
+
